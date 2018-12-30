@@ -1,0 +1,15 @@
+---
+layout: default
+title: Poetry
+permalink: /poetry/index.html
+---
+<h1>Poetry</h1>
+
+<ul>
+  {% for poem in site.poetry %}
+    <li>
+      <a href="{{ poem.url }}"><h2>{{ poem.title }}</h2></a>
+      <h3>{{ poem.description }}</h3>
+    </li>
+  {% endfor %}
+</ul>

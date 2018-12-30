@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jo Pearce - {{ page.title }}</title>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+            integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+            crossorigin="anonymous"
+        />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@jdpearce" />
+        <meta name="twitter:creator" content="@jdpearce" />
+        <meta name="twitter:title" content="{{ page.title }} by Jo Hanna Pearce" />
+        <meta name="twitter:description" content="{{ page.description }}" />
+
+        <style>
+            body {
+                font-family: 'Roboto Mono', sans-serif;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: #f5f0f0;
+            }
+
+            p,
+            ul {
+                padding: 0;
+                margin: 0;
+            }
+
+            li {
+                padding: 0 0 1rem 0;
+                list-style-type: none;
+            }
+        </style>
+    </head>
+    <body>
+        {{ content }}
+    </body>
+</html>
