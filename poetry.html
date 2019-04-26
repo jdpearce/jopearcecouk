@@ -4,15 +4,17 @@ title: Poetry
 permalink: /poetry/index.html
 ---
 
-<h1>Poetry</h1>
+<section class="container">
+    <h1>Poetry</h1>
 
-<ul>
-    {% for poem in site.poetry %}
-    <li>
-        <a href="{{ poem.url }}"
-            ><h2>{{ poem.title }}</h2></a
-        >
-        <h3>{{ poem.description }}</h3>
-    </li>
-    {% endfor %}
-</ul>
+    <ul class="fa-ul">
+        {% for poem in site.poetry %}
+        <li>
+            <a href="{{ poem.url }}"
+                ><h3><i class="fa-li fa fa-book"></i>{{ poem.title }}</h3></a
+            >
+            <h3>{{ poem.description }}</h3>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
