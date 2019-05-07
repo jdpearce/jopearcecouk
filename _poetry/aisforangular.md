@@ -3,6 +3,8 @@ title: '#AisForAngular'
 description: A short poem in the style of Dr. Seuss highlighting some selections from the Angular API. (First performed at ng-conf 2019)
 ---
 
+Prior to this poem being performed at ng-conf 2019, I created a series of Twitter threads exploring a part of the Angular API for each letter. These threads are [collected here](https://twitter.com/jdpearce/status/1125808421373206533).
+
 # A is for... Angular
 
 -   A is for Angular. The reason we’re here!  
