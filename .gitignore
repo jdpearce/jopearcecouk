@@ -59,6 +59,7 @@ typings/
 
 # jekyll generated files
 _site
+.jekyll-cache
 
 # stupid mac files
 .DS_Store
